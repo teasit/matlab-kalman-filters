@@ -6,7 +6,7 @@ This repository contains Kalman Filter implementations in MATLAB that can be use
 for embedded code-generation.
 
 Currently, only the Square-Root Kalman Filter with the Scaled-Unscented Transform
-is provided, as is defined by Rudolph Van der Merwe.[^merwe]
+and non-additive measurement noise is provided, as is defined by Rudolph Van der Merwe.[^merwe]
 It replicates in large parts the [Square-Root UKF by MathWorks](https://de.mathworks.com/help/control/ref/unscentedkalmanfilter.unscentedkalmanfilter.html?s_tid=doc_ta)
 but has slightly different property names, function syntax and calculation schemes.
 The results when using either implementation are very similar in tested scenarios.
