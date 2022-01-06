@@ -1,5 +1,7 @@
 # MATLAB Kalman Filters
 
+![Title Image](docs/unit-test-example.jpg)
+
 This repository contains Kalman Filter implementations in MATLAB that can be used
 for embedded code-generation.
 
